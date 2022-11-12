@@ -283,6 +283,35 @@ svg {
   background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/check.svg);
 }
 
+.ui-component-list--policy {
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 1.3rem;
+}
+
+.ui-component-list--policy2 {
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 1.0rem;
+  margin-left: 1.875rem;
+}
+
+.ui-component-list--policy-text {
+  background-position: left;
+  background-repeat: no-repeat;
+  list-style: none;
+  font-size: 1.0rem;
+}
+
+.ui-component-list--policy-padding-bottom {
+  padding-bottom: 1.875rem;
+}
+
+.ui-component-list--policy-margin-left {
+  margin-left: 1.875rem;
+}
+
+
 /*--------------------------------------------------------------
 7.0 SECTION
 --------------------------------------------------------------*/
@@ -479,6 +508,7 @@ svg {
 
   .ui-image-half-left {
     padding-right: var(--ui-layout-gutter);
+    border: 1px solid #1a1a1a;
   }
 
   .ui-image-half-right {
@@ -499,6 +529,12 @@ svg {
   .ui-layout-grid-3 {
     column-gap: var(--ui-layout-gutter);
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .ui-layout-grid-4 {
+    column-gap: var(--ui-layout-gutter);
+    /* grid-template-columns: repeat(4, 400px); */
+    grid-template-columns: 1fr 2fr 1fr 2fr;
     justify-items: center;
   }
 
@@ -524,7 +560,7 @@ svg {
 
   .ui-component-list--item {
     background-size: 1.25rem;
-    padding-left: 2rem;
+    padding-left: 0.75rem;
   }
 
   /*------------------------------------------------------------
@@ -660,13 +696,13 @@ svg {
     /* FONT SIZE */
 
     --ui-typography-h1: 2.75rem;
-    --ui-typography-h2: 2.1875rem;
-    --ui-typography-h4: 1.4375rem;
+    --ui-typography-h2: 1.1875rem;
+    --ui-typography-h4: 1.00rem;
 
     /* MARGIN */
 
-    --ui-typography-margin-heading: 1rem;
-    --ui-typography-margin-body   : 1.75rem;
+    --ui-typography-margin-heading: 0.5rem;
+    --ui-typography-margin-body   : 0.75rem;
 
     /*----------------------------------------------------------
     |
@@ -740,8 +776,8 @@ svg {
   ------------------------------------------------------------*/
 
   .ui-section-hero {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
   }
 
   /*------------------------------------------------------------
@@ -763,8 +799,8 @@ svg {
   ------------------------------------------------------------*/
 
   .ui-section-feature {
-    padding-bottom: 7.5rem;
-    padding-top: 7.5rem;
+    padding-bottom: 10.5rem;
+    padding-top: 2.5rem;
   }
 
   .ui-section-feature__layout:nth-of-type(even) {
