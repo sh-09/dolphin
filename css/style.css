@@ -1,14 +1,14 @@
+html {
+  font-size: 14px;
+}
+
 body {
   position: relative;
 }
 
 main {
-  min-height: calc(100vh - 100px);
-  padding-bottom: 200px;
-}
-
-main .title {
-  font-size: 20px;
+  min-height: calc(100vh);
+  /* padding-bottom: 200px; */
 }
 
 main .style-none {
@@ -23,13 +23,8 @@ main .style-decimal {
   list-style-type: decimal;
 }
 
-main .text1 {
-  font-size: 16px;
-}
-
-main .text2 {
+main .text {
   margin-left: 1rem;
-  font-size: 16px;
 }
 
 footer {
