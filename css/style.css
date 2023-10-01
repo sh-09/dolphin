@@ -40,33 +40,33 @@ footer {
   background: #ffffff;
   text-align: center;
   padding: 30px;
- }
+}
 
- .footer01 a {
+.footer01 a {
   color: #808080;
   text-decoration: none;
- }
- .footer01 a:hover {
+}
+.footer01 a:hover {
   text-decoration: underline;
- }
- .footer01 .menu {
+}
+.footer01 .menu {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- }
- .footer01 .menu li {
+}
+.footer01 .menu li {
   margin: 0;
   padding: 10px 20px 0 20px;
- }
- .footer01 .copyright {
+}
+.footer01 .copyright {
   margin: 0;
   padding: 20px 0 0 0;
- }
+}
  
-float-button {
+#float-button {
   position: fixed;
   bottom: 10px;
   right: 10px;
