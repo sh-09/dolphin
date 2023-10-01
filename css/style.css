@@ -46,9 +46,11 @@ footer {
   color: #808080;
   text-decoration: none;
 }
+
 .footer01 a:hover {
   text-decoration: underline;
 }
+
 .footer01 .menu {
   margin: 0;
   padding: 0;
@@ -57,17 +59,14 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .footer01 .menu li {
   margin: 0;
   padding: 10px 20px 0 20px;
 }
+
 .footer01 .copyright {
   margin: 0;
   padding: 20px 0 0 0;
 }
  
-#float-button {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
