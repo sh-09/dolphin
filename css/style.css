@@ -66,3 +66,8 @@ footer {
   padding: 20px 0 0 0;
  }
  
+float-button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
