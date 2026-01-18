@@ -10,14 +10,15 @@
     <meta name="referrer" content="unsafe-url">
     <meta name="robots" content="index, follow">
     <!-- LINK -->
-    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">    <link rel="me" href="https://twitter.com/hyponote/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="me" href="https://twitter.com/hyponote/">
     <link rel="canonical" href="https://dolphin3000.com">
     <!-- PERFORMANCE -->
     <link rel="preload" as="style" href="./css/style.css">
     <link rel="stylesheet" href="./css/style.css">
     <!-- TITLE -->
-    <title>Dolphin3000.com</title>
+    <title>Dolphin3000.com - アプリケーション</title>
   </head>
 
   <body>
@@ -31,23 +32,14 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="policy.html">policy</a>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="terms.html">terms</a>
-              </li> -->
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"  href="hyponote-help.html">血圧手帳 ヘルプ</a>
+                <a class="nav-link" href="hyponote-help.html">血圧手帳 ヘルプ</a>
               </li>
             </ul>
-            <span class="navbar-text">
-              home
-            </span>
           </div>
         </div>
       </div>
@@ -57,7 +49,8 @@
       <section class="py-5 text-center container">
         <div class="row pt-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light h3">Apps</h1>
+            <h1 class="fw-light display-5 mb-0">Dolphin Apps</h1>
+            <p class="lead text-muted mt-2">便利なアプリケーション</p>
           </div>
         </div>
       </section>
@@ -66,36 +59,32 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
-              <div class="card shadow-sm">
-                <div class="card-body clearfix">
-                  <img src="./img/icon_hyponote.png" width="80" class="img-thumbnail float-left">
-                  <text class="h6">&nbsp;&nbsp;<a href="hyponote-help.html">血圧手帳/HypertensionNote</a></text>
+              <div class="card shadow-sm h-100 app-card">
+                <div class="card-body d-flex align-items-center gap-3 pb-2">
+                  <img src="./img/icon_hyponote.png" width="70" class="img-thumbnail flex-shrink-0" alt="血圧手帳アイコン">
+                  <h5 class="card-title mb-0"><a href="hyponote-help.html" class="text-decoration-none">血圧手帳</a></h5>
                 </div>
-                <div class="card-body clearfix">
-                  <text class="card-text">表やグラフを簡単にPDF保存/印刷できる血圧手帳アプリ</text>
-                  <div class="d-flex justify-content-start align-items-center">
-                    <div>
-                      <a target="_blank" href='https://play.google.com/store/apps/details?id=com.dolphin3000.hypo_note&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png' width='150' style='margin-top:-32px'/></a>
-                      <a target="_blank" href="https://apps.apple.com/jp/app/hyponote/id1662061961?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 50px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1672617600?h=becd5bf13a8cfc312710e20fcf54aa74" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
-                    </div>
+                <div class="card-body">
+                  <p class="card-text text-muted">表やグラフを簡単にPDF保存/印刷できる血圧手帳アプリ</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a target="_blank" href='https://play.google.com/store/apps/details?id=com.dolphin3000.hypo_note&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="store-badge"><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png' width='130'/></a>
+                    <a target="_blank" href="https://apps.apple.com/jp/app/hyponote/id1662061961?itsct=apps_box_badge&amp;itscg=30200" class="store-badge"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="Download on the App Store" width='130'/></a>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="col">
-              <div class="card shadow-sm">
-                <div class="card-body clearfix">
-                  <img src="./img/icon_c15timer.png" width="80" class="img-thumbnail float-left">
-                  <text class="h6">&nbsp;&nbsp;毎日掃除/CleaningTodo</text>
+              <div class="card shadow-sm h-100 app-card">
+                <div class="card-body d-flex align-items-center gap-3 pb-2">
+                  <img src="./img/icon_c15timer.png" width="70" class="img-thumbnail flex-shrink-0" alt="毎日掃除アイコン">
+                  <h5 class="card-title mb-0">毎日掃除</h5>
                 </div>
-                <div class="card-body clearfix">
-                  <text class="card-text">掃除を習慣にするためのToDoアプリ</text>
-                  <div class="d-flex justify-content-start align-items-center">
-                    <div>
-                      <a target="_blank" href='https://play.google.com/store/apps/details?id=com.dolphin3000.c15timer&hl=ja&gl=JP&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png' width='150' style='margin-top:-32px'/></a>
-                      <a target="_blank" href="https://apps.apple.com/jp/app/c15timer/id6739178746?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 150px; height: 50px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83&amp;releaseDate=1672617600?h=becd5bf13a8cfc312710e20fcf54aa74" alt="Download on the App Store" style="border-radius: 13px; width: 150px; height: 50px;"></a>
-                    </div>
+                <div class="card-body">
+                  <p class="card-text text-muted">掃除を習慣にするためのToDoアプリ</p>
+                  <div class="d-flex gap-2 flex-wrap">
+                    <a target="_blank" href='https://play.google.com/store/apps/details?id=com.dolphin3000.c15timer&hl=ja&gl=JP&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' class="store-badge"><img alt='Google Play で手に入れよう' src='https://play.google.com/intl/en_us/badges/static/images/badges/ja_badge_web_generic.png' width='130'/></a>
+                    <a target="_blank" href="https://apps.apple.com/jp/app/c15timer/id6739178746?itsct=apps_box_badge&amp;itscg=30200" class="store-badge"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ja-jp?size=250x83" alt="Download on the App Store" width='130'/></a>
                   </div>
                 </div>
               </div>

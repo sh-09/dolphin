@@ -4,6 +4,7 @@ html {
 
 body {
   position: relative;
+  background-color: #fafafa;
 }
 
 main {
@@ -27,28 +28,68 @@ main .text {
   margin-left: 1rem;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 120px;
+/* App Cards */
+.app-card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
+
+.app-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.app-card .card-title a {
+  color: inherit;
+  font-weight: 600;
+}
+
+.app-card .card-title a:hover {
+  color: #0d6efd;
+}
+
+.store-badge {
+  display: inline-block;
+  transition: opacity 0.3s ease;
+}
+
+.store-badge:hover {
+  opacity: 0.8;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Footer */
 
 .footer01 {
   color: #808080;
   background: #ffffff;
   text-align: center;
   padding: 30px;
+  border-top: 1px solid #e9ecef;
+  margin-top: 60px;
 }
 
 .footer01 a {
   color: #808080;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer01 a:hover {
-  text-decoration: underline;
+  color: #0d6efd;
+  text-decoration: none;
 }
 
 .footer01 .menu {
@@ -58,15 +99,17 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 
 .footer01 .menu li {
   margin: 0;
-  padding: 10px 20px 0 20px;
+  padding: 0;
 }
 
 .footer01 .copyright {
   margin: 0;
   padding: 20px 0 0 0;
+  font-size: 0.875rem;
 }
  
